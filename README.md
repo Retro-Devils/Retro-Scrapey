@@ -29,9 +29,11 @@
 -Info, Boxarts, & Marquees. *Attempts to get video.
 
 # Install
-curl -sSL YOU KNOW THE DRILL
+
+curl -sSL https://bit.ly/3sqF609 | bash
 
 # How to use?
+
 1:Import Your Media. 
  
  -Place nes boxarts in .../RetroPie/roms/nes/boxart
