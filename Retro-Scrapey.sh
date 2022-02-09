@@ -19,9 +19,9 @@ Featuring The Following:
 --Skips files you already have. 
 --Scrapes info, boxart, marquee. *Attempts to get video.
 --Retro Scrapey uses these sources to scrape:
-      **The GamesDB 
-      **Screenscraper
-      **Open Vault Game Database" 0 0
+     **The GamesDB 
+     **Screenscraper
+     **Open Vault Game Database" 0 0
 if [ $NETCHECK  = 1 ]; then
 dialog  --sleep 1 --title "OFFLINE ERROR !! " --msgbox " 
 Offline...Connect Internet To Use Retro Scrapey!" 0 0
@@ -35,7 +35,7 @@ local choice
       1 "System Select For All Media " \
       2 "System Select For Info Only " \
       3 "Scrape All Systems All Media Now" \
-      4 "Scrape All Syatems Info ONly Now" \
+      4 "Scrape All Systems Info ONly Now" \
       2>&1 >/dev/tty)
 
     case "$choice" in
@@ -87,26 +87,27 @@ local choice
       31 "NeoGeo Pocket" \
       32 "PC Engine" \
       33 "Ports" \
-      24 "PSP" \
-      25 "Playstation" \
-      26 "Sega32X" \
-      27 "SegaCD " \
-      28 "SNES" \
-      29 "Vectrex" \
-      30 "VirtualBoy" \
-      31 "Wine" \
-      32 "Zxspectrum" \
+      34 "PSP" \
+      35 "Playstation" \
+      36 "Sega Saturn" \
+      37 "Sega32X" \
+      38 "SegaCD " \
+      39 "SNES" \
+      40 "Vectrex" \
+      41 "VirtualBoy" \
+      42 "Wine" \
+      43 "Zxspectrum" \
       2>&1 >/dev/tty)
 
     case "$choice" in
       1) media "amstradcpc" ;;
-      2) media "rcade" ;;
+      2) media "arcade" ;;
       3) media "atari800" ;;
       4) media "atari2600" ;;
       5) media "atari5200" ;;
       6) media "atari7800" ;;
-      7) media "atari Lynx" ;;
-      8) media "atomisWave" ;;
+      7) media "atarilynx" ;;
+      8) media "atomiswave" ;;
       9) media "daphne" ;;
       10) media "dreamcast" ;;
       11) media "fba" ;;
@@ -132,15 +133,16 @@ local choice
       31) media "ngp" ;;
       32) media "pce" ;;
       33) media "ports" ;;
-      24) media "psp" ;;
-      25) media "psx" ;;
-      26) media "sega32x" ;;
-      27) media "SegaCD " ;;
-      28) media "snes" ;;
-      29) media "vectrex" ;;
-      30) media "virtualBoy" ;;
-      31) media "wine" ;;
-      32) media "zxspectrum" ;;
+      34) media "psp" ;;
+      35) media "psx" ;;
+      36) media "saturn" ;;
+      37) media "sega32x" ;;
+      38) media "segacd" ;;
+      39) media "snes" ;;
+      40) media "vectrex" ;;
+      41) media "virtualBoy" ;;
+      42) media "wine" ;;
+      43) media "zxspectrum" ;;
     *) break ;;
     esac
   done
@@ -185,26 +187,27 @@ local choice
       31 "NeoGeo Pocket" \
       32 "PC Engine" \
       33 "Ports" \
-      24 "PSP" \
-      25 "Playstation" \
-      26 "Sega32X" \
-      27 "SegaCD " \
-      28 "SNES" \
-      29 "Vectrex" \
-      30 "VirtualBoy" \
-      31 "Wine" \
-      32 "Zxspectrum" \
+      34 "PSP" \
+      35 "Playstation" \
+      36 "Sega Saturn" \
+      37 "Sega32X" \
+      38 "SegaCD " \
+      39 "SNES" \
+      40 "Vectrex" \
+      41 "VirtualBoy" \
+      42 "Wine" \
+      43 "Zxspectrum" \
       2>&1 >/dev/tty)
 
     case "$choice" in
       1) info "amstradcpc" ;; 
-      2) info "rcade" ;;
+      2) info "arcade" ;;
       3) info "atari800" ;;
       4) info "atari2600" ;;
       5) info "atari5200" ;;
       6) info "atari7800" ;;
       7) info "atarilynx" ;;
-      8) info "atomisWave" ;;
+      8) info "atomiswave" ;;
       9) info "daphne" ;;
       10) info "dreamcast" ;;
       11) info "fba" ;;
@@ -230,15 +233,16 @@ local choice
       31) info "ngp" ;;
       32) info "pce" ;;
       33) info "ports" ;;
-      24) info "psp" ;;
-      25) info "psx" ;;
-      26) info "sega32x" ;;
-      27) info "SegaCD " ;;
-      28) info "snes" ;;
-      29) info "vectrex" ;;
-      30) info "virtualBoy" ;;
-      31) info "wine" ;;
-      32) info "zxspectrum" ;;
+      34) info "psp" ;;
+      35) info "psx" ;;
+      36) info "saturn" ;;
+      37) info "sega32x" ;;
+      38) info "segacd " ;;
+      39) info "snes" ;;
+      40) info "vectrex" ;;
+      41) info "virtualBoy" ;;
+      42) info "wine" ;;
+      43) info "zxspectrum" ;;
     *) break ;;
     esac
   done
