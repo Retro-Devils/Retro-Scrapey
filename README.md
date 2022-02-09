@@ -43,19 +43,21 @@ curl -sSL YOU KNOW THE DRILL
 2.From Retropie go to retropie/Retro-Srcapey Press go
 
 3.Scrape for missing media or info.
- -Open Retro Scrapey
- - If you have all media click "System Select For Info.."
+
+-Open Retro Scrapey
+
+*If you have all media click "System Select For Info.."
  
   -Select desired system press go.
  
- - If you are missing media click "System Select For All Media.."
+*If you are missing media click "System Select For All Media.."
   
   -Select desired system press go.
  
- - Wanna Scrape everything click "Scrape All Systems...Media Now or ...Info Now"  
+*Wanna Scrape everything click "Scrape All Systems...Media Now or ...Info Now"  
  
- 4.Return to Retropie with exit. 
+4.Return to Retropie with exit. 
  
- 5.Reload Emulation Station. In es start menu.
+5.Reload Emulation Station. In es start menu.
  
- 6.BIG JOY!!
+6.BIG JOY!!
