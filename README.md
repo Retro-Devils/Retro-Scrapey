@@ -12,8 +12,11 @@
 
 # Wheres this scrape to?
 -Scrapes to the following locations:
+ 
  *BOXART   .../RetroPie/rom/system-name/boxart
+ 
  *VIDEOS   .../RetroPie/roms/system-name/snap
+ 
  *MARQUEES .../RetroPie/roms/system-name/wheel
 
 # What does this scrape for?
@@ -24,8 +27,11 @@ curl -sSL YOU KNOW THE DRILL
 
 # How to use?
 1:Import Your Media. 
+ 
  -Place nes boxarts in .../RetroPie/roms/nes/boxart
+ 
  -Place nes videos in ..../RetroPie/roms/nes/snap
+ 
  -Place nes marquees in ../RetroPie/roms/nes/wheel
 
 2.From Retropie go to retropie/Retro-Srcapey Press go
@@ -41,4 +47,5 @@ curl -sSL YOU KNOW THE DRILL
  4.Return to Retropie with exit. 
  
  5.Reload Emulation Station. In es start menu.
+ 
  6.BIG JOY!!
