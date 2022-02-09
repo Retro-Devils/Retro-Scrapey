@@ -23,11 +23,13 @@
 curl -sSL YOU KNOW THE DRILL
 
 # How to use?
-3:Import Your Media. 
+1:Import Your Media. 
  -Place nes boxarts in .../RetroPie/roms/nes/boxart
  -Place nes videos in ..../RetroPie/roms/nes/snap
  -Place nes marquees in ../RetroPie/roms/nes/wheel
+
 2.From Retropie go to retropie/Retro-Srcapey Press go
+
 3.Scrape for missing media or info.
  -Open Retro Scrapey
  - If you have all media click "System Select For Info.."
@@ -35,6 +37,8 @@ curl -sSL YOU KNOW THE DRILL
  - If you are missing media click "System Select For All Media.."
   -Select desired system press go.
  - Wanna Scrape everything click "Scrape All Systems...Media Now or ...Info Now"  
+ 
  4.Return to Retropie with exit. 
+ 
  5.Reload Emulation Station. In es start menu.
  6.BIG JOY!!
