@@ -58,6 +58,6 @@ curl -sSL YOU KNOW THE DRILL
  
 4.Return to Retropie with exit. 
  
-5.Reload Emulation Station. In es start menu.
+5.Reload Emulation Station in ES start menu.
  
 6.BIG JOY!!
