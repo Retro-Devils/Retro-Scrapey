@@ -30,7 +30,7 @@
 
 # Installer/Updater
 
-curl -sSL https://bit.ly/3sqF609 | bash
+curl -sSL https://bit.ly/3GG37oY | bash
 
 # How to use?
 
