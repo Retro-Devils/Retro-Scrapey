@@ -36,6 +36,7 @@ local choice
       2 "System Select For Info Only " \
       3 "Scrape All Systems All Media Now" \
       4 "Scrape All Systems Info ONly Now" \
+      5 "Update Retro Scrapey" \
       2>&1 >/dev/tty)
 
     case "$choice" in
@@ -43,6 +44,7 @@ local choice
     2) scrape-info  ;;
     3) all-media    ;;
     4) all-info     ;;
+    5) up-scrapey   ;;
     *) break ;;
     esac
   done
@@ -272,6 +274,15 @@ function all-info() {
 clear
 cd "$HOME"/RetroPie/roms/
 /opt/retropie/supplementary/scraper/scraper -img_format=png -image_dir="./boxart" -image_path="./boxart" -download_images=false -image_suffix="" -marquee_dir="./wheel" -marquee_path="./wheel" -download_marquees=false -marquee_suffix="" -video_dir="./snap" -video_path="./snap" -download_videos=false -video_suffix="" -refresh -console_src gdb,ss,ovgdb
+}
+function up-scrape() {
+echo "---UPDATING RETRO SCRAPEY NOW---"
+sleep 5
+sudo rm -r "$HOME"/RetroPie/retropiemenu/Retro-Scrapey.sh
+sudo rm -r /usr/local/bin/scrapey
+wget https://raw.githubusercontent.com/Retro-Devils/Retro-Scrapey/main/Retro-Scrapey.sh -P "$HOME"/RetroPie/retropiemenu/
+chmod 755 "$HOME"/RetroPie/retropiemenu/Retro-Scrapey.sh
+sudo cp "$HOME"/RetroPie/retropiemenu/Retro-Scrapey.sh -f /usr/local/bin/scrapey
 }
 
 main_menu
