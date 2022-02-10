@@ -276,6 +276,7 @@ cd "$HOME"/RetroPie/roms/
 /opt/retropie/supplementary/scraper/scraper -img_format=png -image_dir="./boxart" -image_path="./boxart" -download_images=false -image_suffix="" -marquee_dir="./wheel" -marquee_path="./wheel" -download_marquees=false -marquee_suffix="" -video_dir="./snap" -video_path="./snap" -download_videos=false -video_suffix="" -refresh -console_src gdb,ss,ovgdb
 }
 function update() {
+clear
 echo "---UPDATING RETRO SCRAPEY NOW---"
 sleep 5
 sudo rm -r "$HOME"/RetroPie/retropiemenu/Retro-Scrapey.sh
