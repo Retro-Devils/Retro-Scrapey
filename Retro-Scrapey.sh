@@ -32,14 +32,18 @@ local choice
     choice=$(dialog --backtitle "$BACKTITLE" --title "Retro Scrapey" \
      --ok-button Select --cancel-button Exit \
      --menu " Select Type Of Scrapping" 30 50 50 \
+      + "----------------------------" \
       1 "System Select For All Media " \
       2 "System Select For Info Only " \
+      + "----------------------------" \
       3 "Scrape All Systems All Media Now" \
       4 "Scrape All Systems Info ONly Now" \
+      + "----------------------------" \
       5 "Update Retro Scrapey" \
       2>&1 >/dev/tty)
 
     case "$choice" in
+    +) none ;;
     1) scrape-media ;;
     2) scrape-info  ;;
     3) all-media    ;;
