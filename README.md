@@ -28,7 +28,7 @@
 # What does this scrape for?
 -Info, Boxarts, & Marquees. *Attempts to get video.
 
-# Install
+# Installer/Updater
 
 curl -sSL https://bit.ly/3sqF609 | bash
 
@@ -41,6 +41,8 @@ curl -sSL https://bit.ly/3sqF609 | bash
  -Place nes videos in ..../RetroPie/roms/nes/snap
  
  -Place nes marquees in ../RetroPie/roms/nes/wheel
+ 
+ -Repeat for desired systems.
 
 2.From Retropie go to retropie/Retro-Srcapey Press go
 
