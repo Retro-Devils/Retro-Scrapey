@@ -282,7 +282,9 @@ sleep 5
 sudo rm -r "$HOME"/RetroPie/retropiemenu/Retro-Scrapey.sh
 sudo rm -r /usr/local/bin/scrapey
 sudo rm -r "$HOME"/Devils-Box/scripts/Retro-Scrapey.sh
+sleep 1
 wget https://raw.githubusercontent.com/Retro-Devils/Retro-Scrapey/main/Retro-Scrapey.sh -P "$HOME"/RetroPie/retropiemenu/
+sleep 1
 chmod 755 "$HOME"/RetroPie/retropiemenu/Retro-Scrapey.sh
 sudo cp "$HOME"/RetroPie/retropiemenu/Retro-Scrapey.sh -f /usr/local/bin/scrapey
 sudo cp "$HOME"/RetroPie/retropiemenu/Retro-Scrapey.sh -f "$HOME"/Devils-Box/scripts/Retro-Scrapey.sh
