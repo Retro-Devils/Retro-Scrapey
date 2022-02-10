@@ -44,7 +44,8 @@ curl -sSL https://bit.ly/3GG37oY | bash
  
  -Repeat for desired systems.
 
-2.From Retropie go to retropie/Retro-Srcapey Press go
+2.From Retropie go to Retropie/Retro-Srcapey Press GO
+OR open pixel desktop then terminal type " scrapey " and press GO
 
 3.Scrape for missing media or info.
 
