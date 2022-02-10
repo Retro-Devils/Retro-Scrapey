@@ -1,5 +1,3 @@
-## Retro Scrapey Installer/Updater ##
-
 if [ -f "$HOME"/RetroPie/retropiemenu/Retro-Scrapey.sh ]; then
 echo "---UPDATING RETRO SCRAPEY NOW---"
 sleep 5
